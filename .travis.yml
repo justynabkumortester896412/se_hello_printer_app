@@ -1,8 +1,12 @@
 language: python
-puthon:
+services:
+  - docker
+python:
   - "2.7"
 install:
   - make deps
 script:
   - make test
   - make lint
+after_success:
+  - make docker_build
