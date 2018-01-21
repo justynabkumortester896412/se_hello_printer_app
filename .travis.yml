@@ -2,6 +2,6 @@ language: python
 puthon:
   - "2.7"
 install:
-  -make deps
+  - make deps
 script:
-  -make test
+  - make test
