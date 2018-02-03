@@ -10,5 +10,5 @@ RUN mkdir -p $APP_DIR
 ADD hello_world/ $APP_DIR/hello_world/
 ADD main.py $APP_DIR
 
-CMD PYTHONPATH=$PYTHONPATH:$APP_DIR \
+CMD PYTHONPATH=$PYTHONPATH:/user/src/hello_world_printer \
   FLASK_APP=hello_world flask run --host=0.0.0.0
