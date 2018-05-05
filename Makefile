@@ -10,7 +10,7 @@ lint:
 	flake8 hello_world test
 
 test:
-	PYTHONPATH=. py.test
+	PYTHONPATH=. py.test --ignore test_ui
 
 run:
 	python main.py
