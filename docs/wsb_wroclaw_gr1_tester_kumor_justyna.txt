@@ -1,0 +1,20 @@
+1. Jako tester stworzyłam pliki projektowe, którymi są testy automatyczne: smoke test oraz test z coverage.
+Następnie stworzone pliki zaimportowałam ( za pomocą konsoli i komend: git add, git commit, git push)
+do GitHuba wraz z plikami konfiguracyjnymi dla Travis CI, Dockera oraz Heroku.
+Dzięki temu możemy na GitHub przechowywać repozytoria, monitorować pracę (branche i merge)
+oraz kontrolować wersje budowanego oprogramowania (kontrola wersji, w razie konieczności cofanie się do wcześniejszych wersji oprogramowania).
+W Travis CI, dzięki odpowiedniej konfiguracji możemy monitorować poprawność napisanego kodu,
+a następnie przesyłać projekt do hub.Dockera - co umożliwia nam po pobraniu korzystanie z oprogramowania od razu ze skonfigurowanym środowiskiem,
+i do Heroku, który jako chmura umożliwia klientom dostęp do oprogramowania dzięki połączeniu URL.
+
+2. URL do projektu w github https://github.com/justynabkumortester896412/se_hello_printer_app w tym:
+
+  - test API https://github.com/justynabkumortester896412/se_hello_printer_app/blob/master/test-api/api_test.py
+  - test UI https://github.com/justynabkumortester896412/se_hello_printer_app/blob/master/test_ui/test_ui.py
+  - konfiguracja dla Travis CI https://github.com/justynabkumortester896412/se_hello_printer_app/blob/master/.travis.yml
+
+3. URL do Travis CI https://travis-ci.org/justynabkumortester896412/se_hello_printer_app
+
+4. URL do hub.Docker https://hub.docker.com/r/justynabkumortester896412/hello-world-printer/
+
+5. URL do Heroku https://dashboard.heroku.com/apps/ancient-sea-62343/activity
